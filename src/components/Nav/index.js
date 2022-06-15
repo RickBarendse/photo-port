@@ -29,7 +29,7 @@ function Nav(props) {
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
-                        <a href="#about">About Me</a>
+                        <a data-testid="about" href="#about">About Me</a>
                     </li>
                     <li>
                         <span>Contact</span>
