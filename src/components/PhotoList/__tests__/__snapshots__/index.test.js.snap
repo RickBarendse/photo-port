@@ -1,18 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PhotoList is rendering renders 1`] = `
-<DocumentFragment>
-  <div>
-    <div
-      class="flex-row"
-    />
-  </div>
-</DocumentFragment>
-`;
-
 exports[`renders 1`] = `
 <DocumentFragment>
   <div>
+    return (
+    <div />
+    )
     <div
       class="flex-row"
     />
