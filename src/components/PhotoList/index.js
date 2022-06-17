@@ -106,14 +106,16 @@ const [photos] = useState([
     
     const toggleModal = (image, i) => {
       setCurrentPhoto({...image, index: i})
-      setIsModalOpen(true);
+      setIsModalOpen(!isModalOpen);
     }
 
     return (
         <div>
           return (
             <div>
-              {isModalOpen && <Modal currentPhoto={currentPhoto} />}
+              {isModalOpen && (
+                <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
+              )}
             </div>
           )
             <div className="flex-row">
