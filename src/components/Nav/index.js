@@ -14,7 +14,7 @@ function Nav(props) {
         document.title = capitalizeFirstLetter(currentCategory.name);
     }, [currentCategory]);
 
-    // function categorySelected(name) {
+    //function categorySelected(name) {
     //     console.log(`${name} clicked`)
     // }
     return (

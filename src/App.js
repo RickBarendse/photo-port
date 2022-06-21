@@ -9,7 +9,6 @@ import './App.css';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
-
   const [categories] = useState([
     {
       name: 'commercial',
@@ -28,8 +27,7 @@ function App() {
       description: 'Fields, farmhouses, waterfalls, and the beauty of nature'
     },
   ]);
-
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [currentCategory, setCurrentCategory] = useState(categories[0])
 
   return (
     <div>
